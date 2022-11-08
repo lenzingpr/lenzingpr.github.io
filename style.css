@@ -1,0 +1,65 @@
+body{
+    color:#414042; 
+    font-size:90%; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1080px;
+    margin: auto;
+}
+
+.welcome-msg{
+    font-size:400%; 
+    font-weight: bolder;
+}
+
+.subtitle{
+    color: #626262;
+    text-align: left; 
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.instruction{
+    color:#7c7c7c; 
+    font-size:100%;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+
+.brand-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 10px auto;
+}
+
+.dashboard-container{
+    display: inline-block;
+    border: 10px;
+    margin: 0px auto;
+}
+
+@media (max-width: 960px) {
+    .brand-logos{
+        display: flex;
+        width: 80vw;
+        height: 500px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+}
+
+
