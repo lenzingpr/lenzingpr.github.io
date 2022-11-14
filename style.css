@@ -62,4 +62,12 @@ body{
     }
 }
 
+.home-container{
+    display: flex;
+    width: auto;
+    height: 60vh;
+    margin: 100px 10px;
+    align-items: center;
+}
+
 
