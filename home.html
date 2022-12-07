@@ -13,7 +13,7 @@
 
       <nav class="navbar navbar-expand-lg" style="background-color: #ffffff; opacity: 100%;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="home.html">
+          <a class="navbar-brand" href="pr_2022q2.html">
             <img src="./statics/lenzing_logo.png" width="170" alt="Lenzing Logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +21,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav align-items-end me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html" style="margin-right: 40px; font-size: 120%;">Home</a>
-              </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 30px; font-size: 120%; color: black;">
@@ -49,19 +46,26 @@
     </head>
 
 
-    <body>
-      <div class="home-container">
-      <br>
-      <br>
-        <div class="header">
-          <p class="welcome-msg"> PR Performance Dashboard </p>
-          <p class="subtitle">This website is best viewed with Google Chrome or Firefox.</p>
-
-        </div>
-
-
-      </div>
-    </body>
+    <center>
+      <body>
+        <br>
+        <br>
+        <p> This page is best viewed with Google Chrome or Firefox. </p>
+        <p> Click on the 'Full Screen' button at bottom-right corner for better visual experience. </p>
+  
+  
+          <div class="dashboard-container">
+            <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+            <tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/bcwglobal/views/PRDashboard/Cover' width='1300' height='759' hide-tabs toolbar='bottom' ></tableau-viz>
+          </div>
+        <br>
+        <br>
+        <p style="color:#414042; font-size:70%;"> ​Copyright @2022 by BCW Global </p>
+  
+        
+      </body>
+  
+      </center>
 
 
 </html>
