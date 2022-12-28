@@ -4,7 +4,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
 .header{
     display: flex;
     flex-direction: column;
@@ -13,10 +12,6 @@ body{
     margin: auto;
 }
 
-.welcome-msg{
-    font-size:400%; 
-    font-weight: bolder;
-}
 
 .subtitle{
     color: #626262;
@@ -70,4 +65,29 @@ body{
     align-items: center;
 }
 
+.primary-list-title{
+    font-size: 110%;
+    font-weight: 600;
+    text-indent: -18px;
+    text-decoration: underline;
+}
 
+.secondary-list-title{
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.secondary-list-details{
+    margin-left: -18px;
+}
+
+.third-tier-list{
+    margin-left:-16px;
+}
+
+.copyright{
+    display: flex;
+    color: #414042; 
+    font-size:70%;
+    justify-content: center;
+}

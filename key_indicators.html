@@ -1,0 +1,166 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <title>Lenzing Digital Performance Dashboards</title>
+
+      <link rel="stylesheet" href="style.css">
+
+      <nav class="navbar navbar-expand-lg" style="background-color: #ffffff; opacity: 100%;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="pr_2022q2.html">
+            <img src="./statics/lenzing_logo.png" width="170" alt="Lenzing Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-end me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 30px; font-size: 120%; color: black;">
+                  Quarter
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="pr_2022q2.html">2022 Q2</a></li>
+                  <li><a class="dropdown-item" href="">2022 Q3</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 30px; font-size: 120%; color: black;">
+                  Guidelines
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="key_indicators.html">PR Key Indicators</a></li>
+                  <li><a class="dropdown-item" href="guidelines.html">Exporting Dashboard</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 5px;
+        }
+
+        /* Remove extra left and right margins, due to padding in columns */
+        .row {margin: 0 -5px;}
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+          padding: 5px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+
+        /* Responsive columns - one column layout (vertical) on small screens */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+      </style>
+    </head>
+
+    
+    <body>
+      <br>
+      <div class="container">
+        <h3 style="text-align: left;">Guidelines</h3>
+        <p style="text-align: left;">Check out guidelines below about PR Key Indicators</p>
+        <hr>
+        <br>
+        <div class="key_elements">
+          <ol><p class="primary-list-title">Key elements for assessing media coverage:</p>
+
+            <li class="secondary-list-title">Media outlet tiering</li>
+            <ul><p class="secondary-list-details">Target media outlets, including B2B trade media outlets and lifestyle and fashion media outlets, will be identified and tiered in each market, as follows:</p>
+              <li>Tier 1 key media targets (media which are targeted for ongoing media outreach, including face-to-face or phone media briefings/interviews, as well as press release distribution)</li>
+              <li>Tier 2 media targets (media which are targeted for first-time introductions, as well as press release distribution)</li>
+              <li>Tier 3 media (media which we haven't engaged yet, but good to share regular updates via press release distribution)</li>
+            </ul>
+
+            <li class="secondary-list-title">Coverage tonality/sentiment</li>
+              <ul>
+                <li>Tonality is categorized as positive, neutral and negative</li>
+                <li>For <b>ALL COVERAGE TYPES EXCEPT</b> “Online - Reposting (exclude press release)”, they will be counted as <b>POSITIVE</b></li>
+                <li>For <b>ALL “Online - Reposting (exclude press release)”</b> coverage, they will be counted as <b>NEUTRAL</b></li>
+                <li>If a coverage is explicitly negative but falls under one of the categories from Row 11, then it will be counted as <b>NEGATIVE</b>.</li>
+                <li>Objective industry analysis of Lenzing and product brands will be defined as neutral, unless explicit positive or negative wordings are used</li>
+              </ul>
+
+            <li class="secondary-list-title">Definition of Highlight Clip</li>
+              <p>All press release and reposting articles <b>WILL NOT</b> be counted as highlight clip. Meaning <b>ALL</b> the coverage types "Online-Press Release", "Online-Reposting", and "Print - Press Release" won't be considered.</p>
+              <p>Highlight coverage refers to coverage which fulfills at least 2 categories from Part A AND ALSO at least 2 categories from Part B</p>
+              <ol class="third-tier-list"><p class="secondary-list-details"><u>Part A</u> (need to fulfill at least 2 or more categories)</p>
+                <li>Published by either Tier 1 or 2 media publication</li>
+                <li>Original article (through editorial article placement)</li>
+                <li>Article has "Positive" tonality</li>
+                <li>Mentioned Lenzing's key messages in the article (key messages will be defined base on each media acticity/content)</li>
+              </ol>
+              <br>
+              <ol class="third-tier-list"><p class="secondary-list-details"><u>Part B</u> (need to fulfill at least 2 or more categories)</p>
+                <li>In-depth mention of Lenzing's intiatives</li>
+                <li>Positive comparison against competitors</li>
+                <li>Include Lenzing image(s) in the coverage, such as product or key visual shots</li>
+              </ol>
+
+              <li class="secondary-list-title">Lenzing image use</li>
+                <ul>
+                  <li>Lenzing image refers to spokesperson image and/or corporate images shared by Lenzing team</li>
+                </ul>
+          </ol>
+          <hr>
+          <ul><p class="primary-list-title">Key Indicators for Success Media Outreach Programs</p>
+            <li>Ongoing assessment will be conducted to assess success of media outreach, such assessment include:</li>
+            <ol class="third-tier-list"> 
+              <li><b>Media target hit rate</b>: ratio of tier 1 and 2 media outlets versus tier 3 or other media outlets</li>
+              <li><b>Press release pick-up rate</b>: number of articles resulting from direct reposting of press release</li>
+              <li><b>Sentiment</b>: ratio of positive, neutral and negative articles, with a target to achieve most number of positive articles when compared with neutral or negative articles</li>
+              <li><b>Impression</b>: assessment of number of audience reached (longer term gradual assessment required for assessing coverage patterns)</li>
+              <li><b>Key message pull-through</b>: qualitative assessment of successful "hit-rate" of core Lenzing messages</li>
+              <li><b>Highlight clip and original article ratio</b>: ratio of highlight clips and original articles when compared with syndications and press release reposts, where higher ratio of highlight clips and original articles means more successful outreach (longer term gradual assessment required for assessing coverage patterns)</li>
+              <li><b>Mention in industry analysis articles</b>: this refers to Lenzing being mentioned along with other industry practioners in industry analysis articles; more mentions refer to greater success in driving industry topic discussions and more opportunities for Lenzing message communication; positive mention is encouraged</li>
+              <li><b>Number of original articles, syndicated articles and press release reprints</b>: general assessment of number of articles</li>
+            </ol>
+          </ul>
+        </div>
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="copyright">
+        <p>Copyright @2022 by BCW Global</p>
+      </div>
+      
+    
+    </body>
+</html>
