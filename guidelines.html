@@ -11,42 +11,12 @@
 
       <link rel="stylesheet" href="style.css">
 
-      <nav class="navbar navbar-expand-lg" style="background-color: #ffffff; opacity: 100%;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="pr_2022q2.html">
-            <img src="./statics/lenzing_logo.png" width="170" alt="Lenzing Logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-end me-auto mb-2 mb-lg-0">
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 30px; font-size: 120%; color: black;">
-                  Quarter
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="pr_2022q2.html">2022 Q2</a></li>
-                  <li><a class="dropdown-item" href="">2022 Q3</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 30px; font-size: 120%; color: black;">
-                  Guidelines
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="key_indicators.html">PR Key Indicators</a></li>
-                  <li><a class="dropdown-item" href="guidelines.html">Exporting Dashboard</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-
-          </div>
-        </div>
-      </nav>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+      <script>  
+      $(function(){ 
+        $("#header").load("header.html");
+      }); 
+      </script> 
       
       <style>
         * {
@@ -89,8 +59,8 @@
       </style>
     </head>
 
-    <center>
     <body>
+      <div id="header"></div>
       <br>
       <div class="container">
         <h3 style="text-align: left;">Guidelines</h3>
@@ -147,5 +117,5 @@
       </div>
     
     </body>
-    </center>
+
 </html>

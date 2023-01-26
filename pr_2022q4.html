@@ -10,40 +10,42 @@
       <title>Lenzing PR Performance Dashboards</title>
 
       <link rel="stylesheet" href="style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com"> 
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
+
       <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
       <script>  
       $(function(){ 
         $("#header").load("header.html");
       }); 
-      </script>  
+      </script> 
+
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     </head>
-    
+
+
     <body>
       <div id="header"></div>
       <br>
       <br>
       <p> This page is best viewed with Google Chrome or Firefox. </p>
       <p> Click on the 'Full Screen' button at bottom-right corner for better visual experience. </p>
-  
-      <div class="dashboard-container">
-        <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
-        <tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/bcwglobal/views/2022Q4PRDashboard/Cover' width='1300' height='772' hide-tabs toolbar='bottom' ></tableau-viz>
-      </div>
-      <br>
-      <br>
-      <div class="copyright">
-        <p>Copyright @2022 by BCW Global</p>
-      </div>
-  
-        
-      </body>
-  
-      </center>
+
+      
 
 
+        <div class="dashboard-container">
+          <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+          <tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/bcwglobal/views/PRDashboard/Cover' width='1300' height='759' hide-tabs toolbar='bottom' ></tableau-viz>
+        </div>
+        <br>
+        <br>
+        <div class="copyright">
+          <p>Copyright @2022 by BCW Global</p>
+        </div>
+  
+
+      
+    </body>
 </html>
