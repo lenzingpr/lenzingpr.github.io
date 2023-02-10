@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <title>Lenzing Digital Performance Dashboards</title>
+      <link rel="stylesheet" href="style.css">
+
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+      <script>  
+      $(function(){ 
+        $("#header").load("header.html");
+      }); 
+      </script> 
+
+      
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 5px;
+        }
+
+        /* Remove extra left and right margins, due to padding in columns */
+        .row {margin: 0 -5px;}
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+          padding: 5px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+
+        /* Responsive columns - one column layout (vertical) on small screens */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+      </style>
+    </head>
+
+    
+    <body>
+      <div id="header"></div>
+      <br>
+      <div class="container">
+        <h3 style="text-align: left;">Circulation</h3>
+        <p style="text-align: left;">Sometimes we may come across coverage from search/news portals which normally have very high circulation rates.</p>
+        <hr>
+        <br>
+        <div class="key_elements">
+          <ol><p class="primary-list-title">Starting FY22, we will adopt the below formula to get a more accurate and realistic read on the circulation:</p>
+
+            <li class="secondary-list-title">All media platforms should fall under one of the below three categories.</li>
+            <ul>
+              <li>Category 1 - For mega national and global news portals: Main page monthly visits * news pageviews% * 10%</li>
+              <li>Category 2a - For mainstream news sites, adopt the circulation numbers provided by the publications or available in their websites/latest media kits</li>
+              <li>Category 2b - If numbers are not available from the publication itself: Main page monthly visits * news pageviews%</li>
+              <li>Category 3 - Others: For sites that numbers are not available from the publication itself or have no pageviews% on hypestat.com, direct monthly visits # will be used</li>
+            </ul>
+
+            <li class="secondary-list-title">Coverage tonality/sentiment</li>
+              <ul>
+                <li>Tonality is categorized as positive, neutral and negative</li>
+                <li>For <b>ALL COVERAGE TYPES EXCEPT</b> “Online - Reposting (exclude press release)”, they will be counted as <b>POSITIVE</b></li>
+                <li>For <b>ALL “Online - Reposting (exclude press release)”</b> coverage, they will be counted as <b>NEUTRAL</b></li>
+                <li>If a coverage is explicitly negative but falls under one of the categories from Row 11, then it will be counted as <b>NEGATIVE</b>.</li>
+                <li>Objective industry analysis of Lenzing and product brands will be defined as neutral, unless explicit positive or negative wordings are used</li>
+              </ul>
+
+              <ol class="third-tier-list"><p class="secondary-list-details"><u>Remarks:</u></p>
+                <li>All figures should be taken from Hypestat.com</li>
+                <li>For Category 1, 10% is an estimation of the viewership of a B2B or industry specific news in the site.</li>
+                <li>For streaming sites e.g. YouTube/ Youku which do have a news page unlike Yahoo, Sina etc. will also means there wont be a news% available on Hypestat - they will be considered as Category 3 media.</li>
+                <li>Below shows some of the updated circulation numbers (as of Mar 2022) for the team's easier reference.</li>
+              </ol>      
+        </div>
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="copyright">
+        <p>Copyright @2022 by BCW Global</p>
+      </div>
+      
+    
+    </body>
+</html>
