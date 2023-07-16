@@ -35,9 +35,13 @@ body{
     display: inline-block;
     justify-content: center;
     border: 10px;
-    margin-left: 150px;
+    margin-left: 80px;
+    align-items: center;
 }
-
+.dashboardversions-t{
+    display: flex;
+    justify-content: center;
+}
 .home-container{
     display: flex;
     width: auto;
